@@ -1,0 +1,13 @@
+- `merge_metadata`: merging together the PDF and Spacy/LD metadata files 
+	- artifacts: `merge_res[_complete].csv`
+- `dataset_processing`: all the 
+	- cleanup, parsing, etc.
+	- language detection parsing
+	- removal of 
+		- manually blacklisted docs from `/data/know_bad_docs.csv`
+		- bad OCR 
+		- wrong language 
+		- UTF8-hell documents
+		- EN-only documents
+	- artifacts: `metadata[_complete].csv`
+

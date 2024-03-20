@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: lang-detect-multi-2
+  namespace: gerfin-dataset
+spec:
+  parallelism: 1
+  backoffLimit: 0
+  template:
+    spec:
+      containers:
+        - name: lang-detect-multi-2
+          image: anhaltai/lang-detect-gerfin:multi-2
+          volumeMounts:
+            - name: data
+              mountPath: /data
+          resources:
+            requests:
+              memory: "1Ti"
+              cpu: "96"
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: pvc-gerfin
+      restartPolicy: Never

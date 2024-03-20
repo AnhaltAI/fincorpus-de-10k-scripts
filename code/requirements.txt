@@ -1,0 +1,8 @@
+spacy
+tqdm
+pandas
+seaborn
+spacy_language_detection
+lingua-language-detector
+scikit-learn
+pymupdf

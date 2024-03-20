@@ -1,0 +1,6 @@
+txt_fn	reason	comment
+Brochures_and_InfoMaterials/2023-01-dpam-policy-sustainable-and-responsible-investment-data.pdf.txt	copyright	
+Brochures_and_InfoMaterials/TradingstrategienMitHebelprodukten.pdf.txt	copyright	
+Brochures_and_InfoMaterials/einmaleins-der-wiener-boerse-und-boersebegriffe.pdf.txt	copyright	
+Brochures_and_InfoMaterials/finanzbegriffe.pdf.txt	copyright	
+Final_terms/DE000A289YV5.pdf.txt	other	bad OCR leading to empty language detection strings breaking lang. Detection parsing code

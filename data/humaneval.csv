@@ -1,0 +1,36 @@
+index,pdf_fn,txt_fn,collection,annotator,rating,comments
+6783,pdf/Annual_reports/Jahresabschluss_und_Lagebericht_der_Deutschen_Bank_AG_2008.pdf,txt/Annual_reports/Jahresabschluss_und_Lagebericht_der_Deutschen_Bank_AG_2008.pdf.txt,Annual_reports,SH,5.0,tables are unreadable but that's too much to ask
+6396,pdf/Annual_reports/Deutsche_Bank_Geschaeftsbericht_2012_gesamt.pdf,txt/Annual_reports/Deutsche_Bank_Geschaeftsbericht_2012_gesamt.pdf.txt,Annual_reports,NK,4.0,figures from tables e.g. -403 are �403
+9678,pdf/Annual_reports/2016-finanzstabilitaetsbericht-data.pdf,txt/Annual_reports/2016-finanzstabilitaetsbericht-data.pdf.txt,Annual_reports,SH,4.0,"tables as usual, BUT 25%(!) of lines w/ hyphenations at line end! one of the reviewers asked about that."
+4054,pdf/Annual_reports/dl_jb_2019.pdf,txt/Annual_reports/dl_jb_2019.pdf.txt,Annual_reports,NK,3.0,"some � instead whitespaces, sometimes first right part and then left part of column text when there are large intendations between text pieces within columns (but no mixing sentence parts) "
+5383,pdf/Annual_reports/2005-finanzstabilitaetsbericht-data.pdf,txt/Annual_reports/2005-finanzstabilitaetsbericht-data.pdf.txt,Annual_reports,SH,2.0,Two columns that are totally mixed up in the extraction in more than half of the places I checked
+8727,pdf/Annual_reports/Jahresabschluss_der_Deutsche_Bank_AG_2021.pdf,txt/Annual_reports/Jahresabschluss_der_Deutsche_Bank_AG_2021.pdf.txt,Annual_reports,NK,5.0,"many tables with figures in pdfs, many sequencs of figures in txt but the extraction of the content is well done"
+10658,pdf/Base_prospectuses/DekaBank_EPBSV-I-20_11052020A.pdf,txt/Base_prospectuses/DekaBank_EPBSV-I-20_11052020A.pdf.txt,Base_prospectuses,SH,5.0,easy document no colums perfectly transcribed
+11558,pdf/Base_prospectuses/nachtrag_vom_23_052017_88446416.pdf,txt/Base_prospectuses/nachtrag_vom_23_052017_88446416.pdf.txt,Base_prospectuses,NK,4.0,a bit of mixture of texts in tables (interesting: in my extraction variant this is not the case)
+4163,pdf/Base_prospectuses/DWS TopPortfolioOffensiv.pdf,txt/Base_prospectuses/DWS TopPortfolioOffensiv.pdf.txt,Base_prospectuses,SH,5.0,document with THREE columns that get neatly transcribed block by block
+9512,pdf/Base_prospectuses/dip_2015_basisprospektzurbegebungvonschuldverschreibungen_14.pdf,txt/Base_prospectuses/dip_2015_basisprospektzurbegebungvonschuldverschreibungen_14.pdf.txt,Base_prospectuses,NK,4.0,"quite good even with crazy table-structures, but several  things while extracting the formulas (may be it deserves a 5)"
+9002,pdf/Base_prospectuses/2013_credit_linkedsecuritiesprogramme-basisprospektfuerankreditr_115.pdf,txt/Base_prospectuses/2013_credit_linkedsecuritiesprogramme-basisprospektfuerankreditr_115.pdf.txt,Base_prospectuses,SH,5.0,"basically OK, many short one-two word lines where there should be entire sentences but it's still readable and no mix ups "
+937,pdf/Base_prospectuses/nachtrag_vom_25_072013_2074.pdf,txt/Base_prospectuses/nachtrag_vom_25_072013_2074.pdf.txt,Base_prospectuses,NK,5.0,
+1275,pdf/Final_terms/DE000A3H2044.pdf,txt/Final_terms/DE000A3H2044.pdf.txt,Final_terms,SH,5.0,easy doc
+11425,pdf/Final_terms/DE000DB9T3X2.pdf,txt/Final_terms/DE000DB9T3X2.pdf.txt,Final_terms,NK,4.0,a bit of mixing text in columns
+1436,pdf/Final_terms/DE000HLB3S43.pdf,txt/Final_terms/DE000HLB3S43.pdf.txt,Final_terms,SH,5.0,"easy 3-col table-like structure for the entire doc, dealt with perfectly"
+2694,pdf/Final_terms/DE000HLB3902.pdf,txt/Final_terms/DE000HLB3902.pdf.txt,Final_terms,NK,4.0,a bit of mixing text in tables
+6505,pdf/Final_terms/DE000NLB4QN8.pdf,txt/Final_terms/DE000NLB4QN8.pdf.txt,Final_terms,SH,4.5,"checkboxes are UTF8-hell, BUT doc with columns and tables that are dealt with perfectly. 4 if int-only"
+7285,pdf/Final_terms/DE000DFK0G18.pdf,txt/Final_terms/DE000DFK0G18.pdf.txt,Final_terms,NK,5.0,
+11013,pdf/IFRS/EU-IFRS_2022.pdf,txt/IFRS/EU-IFRS_2022.pdf.txt,IFRS,SH,5.0,
+802,pdf/IFRS/EU-IFRS_2019.pdf,txt/IFRS/EU-IFRS_2019.pdf.txt,IFRS,NK,5.0,
+2279,pdf/IFRS/EU-IFRS_2023.pdf,txt/IFRS/EU-IFRS_2023.pdf.txt,IFRS,SH,5.0,"hyphens are a problem but hyphens are a problem everywhere, same for all IFRS"
+484,pdf/IFRS/EU-IFRS_2017.pdf,txt/IFRS/EU-IFRS_2017.pdf.txt,IFRS,NK,5.0,
+5482,pdf/IFRS/EU-IFRS_2021.pdf,txt/IFRS/EU-IFRS_2021.pdf.txt,IFRS,SH,5.0,
+8398,pdf/Informational_materials/ml-294-fondsfinder-data.pdf,txt/Informational_materials/ml-294-fondsfinder-data.pdf.txt,Informational_materials,NK,5.0,
+6025,pdf/Informational_materials/aval-bedingungen-data.pdf,txt/Informational_materials/aval-bedingungen-data.pdf.txt,Informational_materials,SH,5.0,two columns perfect; one sentence with big distance between words got parsed as one word per line 
+11123,pdf/Informational_materials/verschmelzungsinformation-zum-fonds-la-francaise-systematic-dynamic-allocation-zum-31-05-2023-data.pdf,txt/Informational_materials/verschmelzungsinformation-zum-fonds-la-francaise-systematic-dynamic-allocation-zum-31-05-2023-data.pdf.txt,Informational_materials,NK,4.0,a bit messy table extraction
+4929,pdf/Informational_materials/informationspflichten-nach-artikel-38-data.pdf,txt/Informational_materials/informationspflichten-nach-artikel-38-data.pdf.txt,Informational_materials,SH,5.0,easy
+8960,pdf/Informational_materials/2022-12-vorvertragl-ishares-msci-world-sri-ucits-etf-data.pdf,txt/Informational_materials/2022-12-vorvertragl-ishares-msci-world-sri-ucits-etf-data.pdf.txt,Informational_materials,NK,5.0,a clean text extraction even given a complicated layout at the beginning
+6068,pdf/Informational_materials/szr-bedingungen-2021-data.pdf,txt/Informational_materials/szr-bedingungen-2021-data.pdf.txt,Informational_materials,SH,4.0,tables a bit messy
+7580,pdf/Law/GenG.pdf,txt/Law/GenG.pdf.txt,Law,NK,5.0,
+11675,pdf/Law/BerVersV.pdf,txt/Law/BerVersV.pdf.txt,Law,SH,5.0,"doc contained tables from hell with merged cells, results OK given the input data"
+7362,pdf/Law/gesetz_zur_Umsetzung_von_ARUG_II.pdf,txt/Law/gesetz_zur_Umsetzung_von_ARUG_II.pdf.txt,Law,NK,3.0,sometimes mixing right part and then left part of column text when there are larger intendations between text pieces within columns (several sentence parts mixture). not the case in my file
+21,pdf/Law/BetrAVG.pdf,txt/Law/BetrAVG.pdf.txt,Law,SH,5.0,easy
+1972,pdf/Law/VermVerkProspV.pdf,txt/Law/VermVerkProspV.pdf.txt,Law,NK,5.0,
+1116,pdf/Law/KapMuG.pdf,txt/Law/KapMuG.pdf.txt,Law,SH,5.0,easy
